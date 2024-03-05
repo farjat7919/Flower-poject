@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    /* margin: 0;
+    padding: 0;
+    box-sizing: border-box; */
+    font-family: "Roboto", sans-serif;
+}
+header {
+    width: 100%;
+    height: 80vh;
+    margin: auto;
+    padding: 50px;
+    background: rgb(241, 210, 210);
+}
+
+header .benner-section {
+    width: 80%;
+    /* height: 100%; */
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    align-items: center;
+    gap: 50px;
+     
+}
+header .benner-section .item2 img {
+    max-width: 100%;
+    
+}
+header .benner-section .item {
+    width: 100%;
+    margin: auto;
+}
+header .benner-section .item h2 {
+    font-size: 52px;
+}
+header .benner-section .item p {
+    font-size: 18px;
+    color:rgb(102, 99, 99);
+}
+/* header .benner-section .item .button {
+    margin-top: 20px;
+} */
+header .benner-section .item .button button{
+ padding: 15px 35px;
+ border: none;
+ color: white;
+ background: rgb(187, 56, 56);
+ font-size: 22px;
+ border-radius: 10px;
+ margin-top: 20px;
+
+}
+header .benner-section .item2{
+    width: 100%;
+
+
+}
+header .benner-section .item2 img {
+    width: 500px;
+    height: 745px;
+}
+/* main section start  */
+main .gullary-content{
+ text-align: center;
+ padding: 30px 0;
+}
+main #gullary {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    align-items: center;
+    gap: 20px;
+}
+main #gullary .gullary-item {
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-items:center;
+}
+main #gullary .gullary-item .img {
+width: 100%;
+height: auto;
+   
+}
+main #gullary .gullary-item .img img {
+    padding: 10px;
+    max-width: 250px;
+    height: auto;
+    background: #F2DEE7;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    object-fit: cover;
+}
+
+main #gullary .gullary-item .img .flowers2 {
+	padding: 65px 15px;
+    background: #D9F0F1;
+}
+main #gullary .gullary-item .img .flower1 {
+    background: #F2DEE7;
+}
+main #gullary .gullary-item .img .flower3 {
+    background: #E3ECDB;
+}
+
+main #delivery {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    align-items: center;
+    background: #ccc;
+    gap: 20px;
+}
+main #delivery .delivery-mane img {
+    width: 100%;
+    height: auto; 
+}
+    
+main #delivery .delivery-mane {
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-items:center;
+}
+#delivery .delivery-mane h1 {
+    font-size: 20px;
+    
+}	
+#discount-card {
+    width: 90px;
+    height: auto;
+    margin: auto;
+    background: #ccc;
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(500px,1fr)); */
+    justify-content: space-between;
+    align-items: center;
+
+}
